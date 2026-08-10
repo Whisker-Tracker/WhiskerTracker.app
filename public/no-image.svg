@@ -1,0 +1,12 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" rx="28" fill="#F1F5F9"/>
+  <rect x="72" y="70" width="496" height="220" rx="24" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="2"/>
+  <path d="M152 250C152 238.954 160.954 230 172 230H468C479.046 230 488 238.954 488 250V250H152V250Z" fill="#94A3B8"/>
+  <circle cx="220" cy="164" r="40" fill="#64748B"/>
+  <path d="M154 242C157.896 203.208 187.357 174 226.145 174H312.891C351.679 174 381.14 203.208 385.036 242H154Z" fill="#64748B"/>
+  <path d="M330 142L424 238" stroke="#94A3B8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M424 142L330 238" stroke="#94A3B8" stroke-width="16" stroke-linecap="round"/>
+  <rect x="214" y="116" width="158" height="20" rx="10" fill="#CBD5E1"/>
+  <rect x="214" y="146" width="106" height="14" rx="7" fill="#CBD5E1"/>
+  <text x="320" y="316" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#64748B">No image available</text>
+</svg>

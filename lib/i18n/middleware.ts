@@ -1,0 +1,9 @@
+import createMiddleware from "next-intl/middleware";
+import { locales, defaultLocale } from "./config";
+
+export default createMiddleware({
+  locales,
+  defaultLocale,
+  localePrefix: "as-needed",
+  localeDetection: true,
+});
