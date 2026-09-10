@@ -63,10 +63,11 @@ export async function signupAction(formData: FormData) {
 
 export async function resetPasswordAction(formData: FormData) {
   const email = getFormString(formData, "email");
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
   const supabase = await createClient();
   const { error } = await supabase.auth.resetPasswordForEmail(email, {
-    redirectTo: "http://localhost:3000/reset-password",
+    redirectTo: new URL("/reset-password", siteUrl).toString(),
   });
 
   if (error) {
